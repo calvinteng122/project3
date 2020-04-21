@@ -172,6 +172,11 @@
   width: 100%;
   font-size: 80px;
  }
+#mapnavigation{
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  font-size: 80px;
+ }
 .pc ul{
   font-family: 'Lato', sans-serif;
   font-size: 80px;	
