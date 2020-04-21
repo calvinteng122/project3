@@ -117,28 +117,28 @@
 }
 .pc h1{
 	text-align: center;
-	font-family: 'Lato', sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: rgb(0,0,128)
 }
 .pc h2{
 	text-align: center;
-	font-family: 'Lato', sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: rgb(30,144,255)
 }
 .pc h3{
 	text-align: center;
-	font-family: 'Lato', sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: rgb(0,191,255)
 }
 .pc p{
 	text-align: center;
-	font-family: 'Lato', sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: rgb(0,191,255)
 }
 .pc ul{
 	float: right;
 	margin: 10px auto;
-	font-family: 'Lato', sans-serif;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	color: rgb(0,0,255)	
 }
 .pc img{
