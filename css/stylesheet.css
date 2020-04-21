@@ -12,7 +12,7 @@
 	text-align: center;
 	margin: 10px auto;
 	text-decoration: none;
-	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-family: 'Lato', sans-serif;
 	
 }
 #hometownnavigation{
@@ -20,13 +20,13 @@
 	text-align: center;
 	margin: 10px auto;
 	text-decoration: none;
-	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 #pcnavigation{
         width: 75%;
 	text-align: center;
 	margin: 0px auto;
-	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-family: 'Lato', sans-serif;
 	text-decoration: none;
 }
 .resume h1{
@@ -110,28 +110,28 @@
 }
 .pc h1{
 	text-align: center;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: rgb(0,0,128)
 }
 .pc h2{
 	text-align: center;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: rgb(30,144,255)
 }
 .pc h3{
 	text-align: center;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: rgb(0,191,255)
 }
 .pc p{
 	text-align: center;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: rgb(0,191,255)
 }
 .pc ul{
 	float: right;
 	margin: 10px auto;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: 'Lato', sans-serif;
 	color: rgb(0,0,255)	
 }
 .pc img{
@@ -146,7 +146,7 @@
 	display: inline-block;
 	position: relative;
 	background-color: rgba(50, 115, 220, 0.3);
-	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-family: 'Lato', sans-serif;
 	padding: 12px 50px;
 }
 
