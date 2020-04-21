@@ -1,0 +1,154 @@
+#resume{
+	background-color: rgb(245,245,220);
+}
+#hometown{
+	background-color: rgb(240,255,255);
+}
+#pc{
+	background-color:rgb(255,192,203);
+}
+#navigation{
+    width: 75%;
+	text-align: center;
+	margin: 10px auto;
+	text-decoration: none;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	
+}
+#hometownnavigation{
+    width: 75%;
+	text-align: center;
+	margin: 10px auto;
+	text-decoration: none;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+#pcnavigation{
+        width: 75%;
+	text-align: center;
+	margin: 0px auto;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	text-decoration: none;
+}
+.resume h1{
+	background-color: rgba(50, 115, 220, 0.3);
+	font-family: 'Lato', sans-serif;
+	
+}
+.resume h2{
+	background-color: rgba(50, 115, 220, 0.3);
+	font-family: 'Lato', sans-serif;
+	
+}
+.resume h3{
+	background-color: rgba(50, 115, 220, 0.3);
+	font-family: 'Lato', sans-serif;
+	
+}
+.resume p{
+	font-family:  "Lucida Console", Monaco, monospace;
+	
+}
+.resume li{
+	font-family: "Lucida Console", Monaco, monospace;
+}
+.resume img{
+	margin: 50px;
+	height:400px;
+	width:240px;
+}
+.hometown h1{
+	font-family: Impact, Charcoal, sans-serif;
+	color: rgb(255,140,0)
+	
+	
+}
+.hometown h2{
+	font-family: 'Lato', sans-serif;
+	color: rgb(255,215,0)
+}
+.hometown h3{
+	font-family: 'Lato', sans-serif;
+	color: rgb(255,140,0)
+}
+.hometown nav{
+    width: 75%;
+	text-align: center;
+	margin: 0px auto;
+	display: inline-table;
+	font-family:"Comic Sans MS", cursive, sans-serif; 
+}
+.hometown h4{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: rgb(255,69,0)
+}
+.hometown ul{
+	float: right;
+	font-family: 'Lato', sans-serif;
+	color: rgb(255,69,0)	
+	
+}
+.tower img{
+	float: right;
+	margin: auto;
+	height:200px;
+	width:300px;
+	
+}
+.asus img{
+	float: right;
+	margin: auto;
+	height:200px;
+	width:300px;
+	
+}
+.rog img{
+	float: right;
+	margin: auto;
+	height:200px;
+	width:300px;
+}
+.pc h1{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: rgb(0,0,128)
+}
+.pc h2{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: rgb(30,144,255)
+}
+.pc h3{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: rgb(0,191,255)
+}
+.pc p{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: rgb(0,191,255)
+}
+.pc ul{
+	float: right;
+	margin: 10px auto;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: rgb(0,0,255)	
+}
+.pc img{
+	float: right;
+	margin: auto 50px;
+	width: 320px; 
+    height: 240px;
+}
+ span{
+	text-align: center;
+	margin: 10px auto;
+	display: inline-block;
+	position: relative;
+	background-color: rgba(50, 115, 220, 0.3);
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	padding: 12px 50px;
+}
+
+
+
