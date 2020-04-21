@@ -157,22 +157,7 @@
 	padding: 12px 50px;
 }
 @media only screen and (max-width: 600px) {
-#navigation {
- font-family: 'Lato', sans-serif;
-  width: 100%;
-  font-size: 80px;
- }
-#hometownnavigation{
-  font-family: 'Lato', sans-serif;
-  width: 100%;
-  font-size: 80px;
- }
 #pcnavigation{
-  font-family: 'Lato', sans-serif;
-  width: 100%;
-  font-size: 80px;
- }
-#mapnavigation{
   font-family: 'Lato', sans-serif;
   width: 100%;
   font-size: 80px;
