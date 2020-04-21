@@ -12,7 +12,7 @@
 	text-align: center;
 	margin: 10px auto;
 	text-decoration: none;
-	font-family: 'Lato', sans-serif;
+	font-family:"Comic Sans MS", cursive, sans-serif;
 	
 }
 #hometownnavigation{
@@ -20,20 +20,20 @@
 	text-align: center;
 	margin: 10px auto;
 	text-decoration: none;
-	font-family: 'Lato', sans-serif;
+	font-family:"Comic Sans MS", cursive, sans-serif;
 }
 #pcnavigation{
         width: 75%;
 	text-align: center;
 	margin: 0px auto;
-	font-family: 'Lato', sans-serif;
+	font-family:"Comic Sans MS", cursive, sans-serif;
 	text-decoration: none;
 }
 #mapnavigation{
         width: 75%;
 	text-align: center;
 	margin: 0px auto;
-	font-family: 'Lato', sans-serif;
+	font-family:"Comic Sans MS", cursive, sans-serif;
 	text-decoration: none;
 }
 .resume h1{
