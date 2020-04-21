@@ -149,6 +149,32 @@
 	font-family: 'Lato', sans-serif;
 	padding: 12px 50px;
 }
-
-
+@media only screen and (max-width: 600px) {
+#navigation {
+  width: 100%;
+  font-size: 80px;
+ }
+#hometownnavigation{
+  width: 100%;
+  font-size: 80px;
+ }
+#pcnavigation{
+  width: 100%;
+  font-size: 80px;
+ }
+.pc ul{
+  font-size: 80px;	
+ }
+.pc p{
+  font-size: 80px;	
+ }	
+.pc h2{
+  font-size: 80px;	
+ }	
+.pc img{
+  text-align: center;
+  width: 480px; 
+  height: 320px;
+  }
+}
 
