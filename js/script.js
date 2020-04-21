@@ -19,7 +19,7 @@ function init(){
 		icon: 'images/chicago-teams.jpg'
 	});
 
-	var contentString = '<h1>The United Center</h1><p>is home to the 6-time champions, the Chicago Bulls and the Chicago Blackhawks .</p>';
+	var contentString = '<h1>Taipei City</h1>;
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
