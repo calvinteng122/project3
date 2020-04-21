@@ -29,6 +29,13 @@
 	font-family: 'Lato', sans-serif;
 	text-decoration: none;
 }
+#mapnavigation{
+        width: 75%;
+	text-align: center;
+	margin: 0px auto;
+	font-family: 'Lato', sans-serif;
+	text-decoration: none;
+}
 .resume h1{
 	background-color: rgba(50, 115, 220, 0.3);
 	font-family: 'Lato', sans-serif;
