@@ -177,6 +177,9 @@
   width: 100%;
   font-size: 80px;
  }
+.pc background{
+ background-color: rgb(255, 240, 245);
+}
 .pc ul{
   font-family: 'Lato', sans-serif;
   font-size: 80px;	
