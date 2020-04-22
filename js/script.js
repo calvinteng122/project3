@@ -1,8 +1,8 @@
 function init(){
 	var el = document.getElementById('map');
-	var myLocation = new google.maps.LatLng(25.026297, 121.561269);
+	var taipei = new google.maps.LatLng(25.026297, 121.561269);
 	var mapOptions = {
-		center: myLocation,
+		center: taipei,
 		zoom: 18,
 		mapTypeId: google.maps.MapTypeId.SATELLITE,
 		mapTypeControlOptions: {
@@ -13,9 +13,9 @@ function init(){
 	var myMap = new google.maps.Map(el, mapOptions);
 
 	var marker = new google.maps.Marker({
-		position: myLocation,
+		position: taipei,
 		map: myMap,
-		animation: google.maps.Animation.BOUNCE,
+		animation: google.maps.Animation.DROP,
 
 	});
 
