@@ -1,6 +1,6 @@
 function init(){
 	var el = document.getElementById('map');
-	var myLocation = new google.maps.LatLng(41.880858, -87.674069);
+	var myLocation = new google.maps.LatLng(25.026297, 121.561269);
 	var mapOptions = {
 		center: myLocation,
 		zoom: 18,
@@ -16,10 +16,10 @@ function init(){
 		position: myLocation,
 		map: myMap,
 		animation: google.maps.Animation.BOUNCE,
-		icon: 'images/chicago-teams.jpg'
+
 	});
 
-	var contentString = '<h1>Taipei City</h1>;
+	var contentString = '<h2>Taipei City</h2>;
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
