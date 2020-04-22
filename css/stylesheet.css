@@ -157,7 +157,7 @@
 	padding: 12px 50px;
 }
 
-@media screen and (min-width: 200px) and (max-width: 600px){
+@media screen and (min-width: 80px) and (max-width: 400px){
   #pcnavigation{
   font-family: 'Lato', sans-serif;
   width: 100%;
