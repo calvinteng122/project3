@@ -156,7 +156,19 @@
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	padding: 12px 50px;
 }
-
+#map {
+        height: 100%;
+      }
+body.map {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+}
+html.map {
+ 	height: 96%;
+	margin: 0;
+  	padding: 0;
+}
 @media screen and (min-width: 80px) and (max-width: 400px){
   #pcnavigation{
   font-family: 'Lato', sans-serif;
