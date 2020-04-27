@@ -18,10 +18,7 @@
       <h3>My Hometown</h3>
       <h1> Taiwan </h1>
       <h3>Also known as Republic of China (R.O.C)</h3>
-      <div class = "tower">
-        <img src="images/101.jpg" alt="101."/>
-      </div>
-       <img src="images/taiwan.png" alt="Taiwan"/>
+      <img src="images/taiwan.png" alt="Taiwan"/>
       <h4>What are Taiwan famous for ?</h4>
       <ul>
         <li>Techonology - Asus, Acer, MSI, GIGABYTE, ASRock, BenQ, AOC, Transcend, TSMC, and HTC.</li>
@@ -39,5 +36,25 @@
       <h2>Population: estimate 23,780,452</h2>
     </section>
   </div>
+  <div class="slideshow" >
+    <img class="mySlides" src="101.jpg" >
+    <img class="mySlides" src="tpe.jpg" >
+    <img class="mySlides" src="tpe2.jpg">
+  </div>
+  <script>
+    var myIndex = 0;
+    slide();
+    function slide() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(slide, 3000); 
+  }
+</script>
 </body>
 </html>
