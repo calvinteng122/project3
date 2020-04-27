@@ -95,13 +95,6 @@
 	color: rgb(255,69,0)	
 	
 }
-.tower img{
-	float: right;
-	margin: auto;
-	height:200px;
-	width:300px;
-	
-}
 .asus img{
 	float: right;
 	margin: auto;
@@ -111,6 +104,11 @@
 }
 .rog img{
 	float: right;
+	margin: auto;
+	height:200px;
+	width:300px;
+}
+.mySlides {
 	margin: auto;
 	height:200px;
 	width:300px;
