@@ -4,10 +4,10 @@
     <title>Simple Map</title>
     <meta name="viewport" content="initial-scale=1.0">
 	 <meta charset="utf-8">
-	  <link rel="stylesheet" href="stylesheet.css">
+	  <link rel="stylesheet" href="css/stylesheet.css">
          <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
 	  <link  href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
-	  <script src="script.js"></script>
+	  <script src="js/script.js"></script>
   </head> 
   
 
@@ -21,7 +21,11 @@
 	    <span><a href="map.html">Map</a></span>
       </nav>
 <div id ="map"></div>
-<style>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMFUxKOb0Npe9Klgrl6JuAWr71FzXghg0&callback=initMap" async defer></script>
+
+  </body>
+	<style>
       #map {
         height: 100%;
       }
@@ -31,7 +35,4 @@
         padding: 0;
       }
     </style>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMFUxKOb0Npe9Klgrl6JuAWr71FzXghg0&callback=initMap" async defer></script>
-
-  </body>
 </html>
