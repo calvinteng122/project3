@@ -9,8 +9,8 @@ function initMap() {
         var marker = new google.maps.Marker({
           position: taipei,
           map: map,
-	  animation: google.maps.Animation.DROP,
-        });
+		  animation: google.maps.Animation.DROP,
+		  });
 }
 //slide show
 var myIndex = 0;
