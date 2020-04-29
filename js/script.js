@@ -9,8 +9,7 @@ function initMap() {
         var marker = new google.maps.Marker({
           position: taipei,
           map: map,
-		  animation: google.maps.Animation.DROP,
-		  title: 'Uluru (Ayers Rock)'
+	  animation: google.maps.Animation.DROP,
         });
 }
 //slide show
