@@ -1,33 +1,30 @@
-function init(){
-	var el = document.getElementById('map');
-	var taipei = new google.maps.LatLng(25.026297, 121.561269);
-	var mapOptions = {
-		center: taipei,
-		zoom: 18,
-		mapTypeId: google.maps.MapTypeId.SATELLITE,
-		mapTypeControlOptions: {
-			position: google.maps.ControlPosition.BOTTOM_CENTER
-		}
-	};
+function initMap() {
+        var taipei = {lat: 25.034880, lng: 121.565231};
 
-	var myMap = new google.maps.Map(el, mapOptions);
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 9,
+          center: taipei
+        });
 
-	var marker = new google.maps.Marker({
-		position: taipei,
-		map: myMap,
-		animation: google.maps.Animation.DROP,
-
-	});
-
-	var contentString = '<h2>Taipei City</h2>;
-
-	var infowindow = new google.maps.InfoWindow({
-      content: contentString
-  	});
-
-	google.maps.event.addListener(marker, 'mouseover', function() {
-    	infowindow.open(myMap, marker);
-  	});
+        var marker = new google.maps.Marker({
+          position: taipei,
+          map: map,
+		  animation: google.maps.Animation.DROP,
+		  title: 'Uluru (Ayers Rock)'
+        });
 }
+//slide show
+var myIndex = 0;
+slide();
 
-google.maps.event.addDomListener(window, 'load', init);
+function slide() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(slide, 3000); 
+}
